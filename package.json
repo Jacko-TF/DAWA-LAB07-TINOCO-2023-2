@@ -5,7 +5,7 @@
     "main": "src/index.js",
     "scripts": {
         "dev": "nodemon src/index.js",
-        "test": "jest --detectOpenHandles"
+        "test": "jest --verbose"
     },
     "author": {
         "name": "Jorge Castañeda",

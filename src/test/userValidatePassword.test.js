@@ -1,7 +1,7 @@
 const {verifyPassword} = require('../utils/for_testing')
 const User = require('../models/User');
 
-describe('user test', () =>{
+describe('user validate password test', () =>{
 
     test('Correct Password', async () => {
         const user = await User.findOne({email: "jacko.tinoco@tecsup.edu.pe"})
